@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="logo.png" />
+    <title style="color: white;">Giphy App</title>
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar bg-black">
+      <div class="container-fluid">
+        <a class="navbar-brand">
+          <img
+            src="https://payload.cargocollective.com/1/4/133548/13949399/03_SpinningLogo.gif"
+            alt=""
+            width="50"
+          />
+          <span class="titulo">GYPHY</span>
+        </a>
+
+        <form class="d-flex" role="search">
+          <select id="inputState" class="form-select">
+            <option selected="">Choose...</option>
+            <option value="12">12</option>
+            <option value="20">20</option>
+            <option value="30">30</option>
+          </select>
+          (" ")
+          <input
+            class="form-control me-2"
+            type="search"
+            placeholder="Escribe tu busqueda..."
+            aria-label="Search"
+            id="busqueda"
+          />
+          <button class="btn btn-primary" type="button" id="btn">
+            buscar
+          </button>
+        </form>
+      </div>
+    </nav>
+
+    <!-- CONTENEDOR -->
+    <div class="container mt-5">
+      <div
+        id="portfolio"
+        class="row row-cols-1 row-cols-md-3 row-cols-lg-4"
+      ></div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="bg-light text-center text-lg-start">
+      <div class="text-center p-3" style="background-color: black;">
+        <a className="footer" class="text-white">
+          © 2020 Copyright: Leonel Lizarraga
+        </a>
+      </div>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>

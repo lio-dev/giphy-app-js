@@ -1,0 +1,16 @@
+.titulo{
+    color: white;
+    font-weight: bolder;
+}
+footer{
+    color: white;
+}
+footer a{
+    text-decoration: none;
+}
+#inputState{
+    width: 50%;
+}
+.navbar-brand{
+    color: white;
+}
